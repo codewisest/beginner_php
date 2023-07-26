@@ -46,6 +46,22 @@
     print_r($schools);
     print_r($schools['Durham College']);
     echo($schools['Durham College'][1]);
+    
+    // Exercise
+    $x = 7;
+    $y = 4;
+
+    $z = ($x + $y) * 5;
+
+    echo "<br>____________Exercises_________________";
+    echo "<br> $x plus $y multiplied by 5 equals $z";
+
+    echo "<br> _________2__________";
+    $price = 20;
+    $vat = 5;
+    $total_price = $price + $vat;
+
+    echo "<br>Price is $price, <br>VAT is $vat, <br>Total price is $total_price";
     ?>
 </body>
 </html>
