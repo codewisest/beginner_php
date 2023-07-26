@@ -34,6 +34,18 @@
     foreach($carsAsso as $make => $milage) {
         echo("<br> My $make has covered a total distance of $milage");
     }
+
+    echo "<br>";
+
+    // multidimensional arrays
+    $schools = array(
+        'Durham College' => array('Web Development', 'Digital Illustration', 'Design Process'),
+        'Humber College' => array('Workshop', 'Special Topics', 'Database')
+    );
+
+    print_r($schools);
+    print_r($schools['Durham College']);
+    echo($schools['Durham College'][1]);
     ?>
 </body>
 </html>
