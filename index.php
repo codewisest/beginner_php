@@ -62,6 +62,44 @@
     $total_price = $price + $vat;
 
     echo "<br>Price is $price, <br>VAT is $vat, <br>Total price is $total_price";
+
+    echo "<br> _________3__________";
+    $x = 5;
+    $y = 7;
+    $z = 10;
+
+    $average = ($x + $y + $z) / 3;
+
+    echo "<br> Average is" . number_format($average, 2, ',', ' ');
+
+    echo "<br> _________4__________";
+    $countries = array(
+        'Nigeria' => 'Abuja',
+        'Canada' => 'Toronto',
+        'Israel' => 'Tel Aviv'
+    );
+
+    foreach($countries as $country => $capital) {
+        echo "<br> The capital of $country is $capital";
+    }
+
+    echo "<br> _________5__________";
+    $cm = 150;
+    $cmToInch = $cm * 0.39;
+
+    echo "<br> $cm centimeters is $cmToInch inches";
+
+    echo "<br> _________6__________";
+    $expenses = array(40, 70, 20, 80, 75, 20);
+    $totalAmount = 0;
+    $amountOfExpenses = 0;
+
+    foreach($expenses as $expense) {
+        $totalAmount += $expense;
+        $amountOfExpenses = $amountOfExpenses + 1;
+    }
+
+    echo "<br>My $amountOfExpenses biggest expenses were $totalAmount";
     ?>
 </body>
 </html>
