@@ -100,6 +100,18 @@
     }
 
     echo "<br>My $amountOfExpenses biggest expenses were $totalAmount";
+
+    // Control structures
+    $age = 40;
+
+    echo "<br>";
+    if($age < 20) {
+        echo "Sorry you are too young";
+    } elseif($age > 50) {
+        echo 'Sorry, you are too old to party';
+    } else {
+        echo "You are old enough to go out";
+    }
     ?>
 </body>
 </html>
