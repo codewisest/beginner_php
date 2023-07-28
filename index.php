@@ -112,6 +112,25 @@
     } else {
         echo "You are old enough to go out";
     }
+
+    echo "<br>";
+    $role = 'Staff';
+    switch ($role) {
+        case 'Visitor':
+            echo 'Welcome Visitor';
+            break;
+        case 'Admin':
+            echo 'Welcome Admin';
+            break;
+        case 'Superadmin':
+            echo 'Welcome Superadmin';
+            break;
+        case 'Boss':
+            echo 'Welcome Boss';
+            break;
+        default:
+            echo 'What are you doing here';
+    }
     ?>
 </body>
 </html>
