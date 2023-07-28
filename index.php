@@ -156,6 +156,39 @@
     foreach($person as $key => $value) {
         echo "<br>$key is $value";
     }
+
+    // Exercise 2
+    echo "<br>_____________Exercise___________";
+    echo "<br>_____________1___________<br>";
+
+    $first_value = 10;
+    $second_value = 15;
+
+    if($first_value > $second_value) {
+        echo "Highest value is $first_value and lowest value is $second_value";
+    } else {
+        echo "lowest value is $first_value and highest value is $second_value";
+
+    }
+
+    echo "<br>_____________2___________<br>";
+    $user_choice = 3;
+    switch($user_choice) {
+        case 1:
+            echo "Spades";
+            break;
+        case 2:
+            echo 'Hearts';
+            break;
+        case 3:
+            echo 'Diamonds';
+            break;
+        case 4:
+            echo 'Clubs';
+            break;
+        default: 
+            echo 'Forgeritt';
+    }
     ?>
 </body>
 </html>
