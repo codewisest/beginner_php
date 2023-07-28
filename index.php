@@ -131,6 +131,19 @@
         default:
             echo 'What are you doing here';
     }
+
+    // for loop
+    for ($x = 0; $x < 10; $x++) {
+        echo "The number is $x <br>";
+    }
+
+    $deposit = 1000;
+    $interest = 0.05;
+    $revenue = $deposit + ($deposit * $interest);
+    for($i = 1; $i < 5; $i++) {
+        $revenue = $revenue + ($revenue * $interest);
+    }
+    echo $revenue;
     ?>
 </body>
 </html>
