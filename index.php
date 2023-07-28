@@ -144,6 +144,18 @@
         $revenue = $revenue + ($revenue * $interest);
     }
     echo $revenue;
+
+    // foreach
+    $names = array("John", "Michael", "David");
+    $person = array('Name' => 'Chiji', 'Age' => 36, 'Gender' => 'Male');
+
+    foreach($names as $name) {
+        echo "<br>$name";
+    }
+
+    foreach($person as $key => $value) {
+        echo "<br>$key is $value";
+    }
     ?>
 </body>
 </html>
